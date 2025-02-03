@@ -1,0 +1,76 @@
+/* Home Container */
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #0078d4, #004c8c);
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Heading */
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Subheading */
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    opacity: 0.9;
+  }
+  
+  /* Auth Button */
+  .auth-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #ffffff;
+    color: #0078d4;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .auth-button:hover {
+    background: #f4f4f4;
+    transform: scale(1.05);
+  }
+  
+  /* Fade-In Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .delay {
+    animation-delay: 0.3s;
+  }
+  
